@@ -1,0 +1,6 @@
+train: Dataset/train
+val: Dataset/valid
+test: Dataset/test
+
+nc: 7
+names: ['Doctor', 'ECG_Monitor', 'Family', 'ICU_Patient', 'Machine', 'Nurse', 'Staff']
