@@ -41,7 +41,7 @@ The system integrates YOLOv8s for object detection and an LSTM model for motion 
 ### 🖼 Object Detection
 **Initialising Requirements**
 - High-performance computer with a powerful GPU.
-- Essential software: Python, OpenCV, YOLOv8, and other libraries for image and video processing.
+- Essential Python Libraries: Python, OpenCV, YOLOv8, and other libraries for image and video processing.
 - Robust storage solutions for managing large datasets.
 
 **Data Preparation**
