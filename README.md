@@ -28,6 +28,7 @@ The system integrates YOLOv8s for object detection and an LSTM model for motion 
 3. [Numpy](https://numpy.org/doc/)
 4. [Tensorflow](https://www.tensorflow.org/api_docs)
 5. [pyyaml](https://pyyaml.org/wiki/PyYAMLDocumentation)
+6. [postman](https://learning.postman.com/docs/introduction/overview/)
 
 ## 🎥 Demo Video
 ![Demo Video](https://github.com/AritriPodde2210/TeleICU-Patient-Monitoring-System/assets/123970201/4fd1526b-b4e5-46de-901f-51a98cf9818f)
@@ -76,38 +77,39 @@ The system integrates YOLOv8s for object detection and an LSTM model for motion 
 **Server Access**
 - API accessible via the local host server at `http://127.0.0.1:9000`.
  ## 📬 Access API Using Postman Software
- ### Using JSON
- - Enter the JSON payload with the video data you want to process. For example:
-  ```json
-  {
-    "video_path": "path/to/your/video.mp4"
-  }
+To access the API using Postman, follow these steps:
+### Using json
+Copy code
+{
+  "video_path": "path/to/your/video.mp4"
+}
 Send the Request:
 
-- Click on Send to submit your request to the API.
-- You should receive a response with the processed frames and video output.
-- To access the API using Postman, follow these steps:
+Click on Send to submit your request to the API.
+You should receive a response with the processed frames and video output.
 
 Install Postman:
 
-- If you haven't already, download and install Postman from [here](https://www.postman.com/downloads/).
+If you haven't already, download and install Postman from [here](https://www.postman.com/downloads/).
 Create a New Request:
 
-- Open Postman and click on New to create a new HTTP request.
-- Set the Request Type and URL:
+Open Postman and click on New to create a new HTTP request.
+Set the Request Type and URL:
 
-- Select POST as the request type.
-- Enter the API endpoint URL: http://127.0.0.1:9000/process.
-- Set Headers:
+Select POST as the request type.
+Enter the API endpoint URL: http://127.0.0.1:9000/process.
+Set Headers:
 
-- Click on the Headers tab and add the following key-value pair:
+Click on the Headers tab and add the following key-value pair:
 Content-Type: application/json
 Set the Body:
 
-- Click on the Body tab and select raw and JSON (application/json)
+Click on the Body tab and select raw and JSON (application/json).
+Enter the JSON payload with the video data you want to process. For example:
+
+For more details on using Postman, refer to the [Postman Documentation](https://learning.postman.com/docs/introduction/overview/).
 
 
-- For more details on using Postman, refer to the [Postman Documentation](https://learning.postman.com/docs/introduction/overview/).
 
 ## 📊 Output
 ![Output](https://github.com/AritriPodde2210/TeleICU-Patient-Monitoring-System/assets/123970201/819a41cb-b4d0-45fe-9d5a-ea6ebfd87f3e)
@@ -119,9 +121,10 @@ Set the Body:
 
 Meet the individuals behind **Team Tensor Stars** who contributed to this project:
 
-- **Md Alsaifi** - Video Collection and Preprocessing
-- **Aman Kumar Srivastav** - Object detection,Motion detection,API integration
+- **Md Alsaifi** - Team Lead,Video Collection and Preprocessing
+- **Aman Kumar Srivastava** - Object detection,Motion detection,API integration
 - **Aritri Podder** - Documentation , Report Writing and Research
+
 
 
 
@@ -137,10 +140,11 @@ Future work will focus on improving the models’ accuracy, expanding the datase
 
 ```sh
 pip install -r requirements.txt
-python main.py
+python api.py
 
 ## Access the API:
-Open your browser and go to http://127.0.0.1:9000/index.
+Open your browser and go to http://127.0.0.1:9000.
+
 
 Thank you for checking out our project! If you have any questions or feedback, feel free to reach out to us.
 
