@@ -103,10 +103,10 @@ Future work will focus on improving the models’ accuracy, expanding the datase
 
 ```sh
 pip install -r requirements.txt
-python api.py
+python main.py
 
 ## Access the API:
-Open your browser and go to http://127.0.0.1:9000.
+Open your browser and go to http://127.0.0.1:9000/index.
 
 Thank you for checking out our project! If you have any questions or feedback, feel free to reach out to us.
 
