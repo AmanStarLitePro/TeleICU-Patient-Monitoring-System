@@ -75,6 +75,38 @@ The system integrates YOLOv8s for object detection and an LSTM model for motion 
 
 **Server Access**
 - API accessible via the local host server at `http://127.0.0.1:9000`.
+ ## 📬 Access API Using Postman Software
+To access the API using Postman, follow these steps:
+
+Install Postman:
+
+If you haven't already, download and install Postman from here.
+Create a New Request:
+
+Open Postman and click on New to create a new HTTP request.
+Set the Request Type and URL:
+
+Select POST as the request type.
+Enter the API endpoint URL: http://127.0.0.1:9000/process.
+Set Headers:
+
+Click on the Headers tab and add the following key-value pair:
+Content-Type: application/json
+Set the Body:
+
+Click on the Body tab and select raw and JSON (application/json).
+### Using JSON
+
+- Enter the JSON payload with the video data you want to process. For example:
+  ```json
+  {
+    "video_path": "path/to/your/video.mp4"
+  }
+Send the Request:
+
+Click on Send to submit your request to the API.
+You should receive a response with the processed frames and video output.
+For more details on using Postman, refer to the [Postman Documentation](https://learning.postman.com/docs/introduction/overview/).
 
 ## 📊 Output
 ![Output](https://github.com/AritriPodde2210/TeleICU-Patient-Monitoring-System/assets/123970201/819a41cb-b4d0-45fe-9d5a-ea6ebfd87f3e)
