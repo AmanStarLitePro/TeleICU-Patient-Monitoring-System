@@ -27,6 +27,7 @@ The system integrates YOLOv8s for object detection and an LSTM model for motion 
 2. [OpenCV](https://docs.opencv.org/4.x/)
 3. [Numpy](https://numpy.org/doc/)
 4. [Tensorflow](https://www.tensorflow.org/api_docs)
+5. [pyyaml](https://pyyaml.org/wiki/PyYAMLDocumentation)
 
 ## 🎥 Demo Video
 ![Demo Video](https://github.com/AritriPodde2210/TeleICU-Patient-Monitoring-System/assets/123970201/4fd1526b-b4e5-46de-901f-51a98cf9818f)
