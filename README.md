@@ -86,7 +86,7 @@ The system integrates YOLOv8s for object detection and an LSTM model for motion 
 Meet the individuals behind **Team Tensor Stars** who contributed to this project:
 
 - **Md Alsaifi** - Video Collection and Preprocessing
-- **Aman Kumar Srivastava** - Object detection,Motion detection,API integration
+- **Aman Kumar Srivastav** - Object detection,Motion detection,API integration
 - **Aritri Podder** - Documentation , Report Writing and Research
 
 
