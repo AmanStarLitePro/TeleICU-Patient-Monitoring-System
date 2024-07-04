@@ -123,7 +123,7 @@ For more details on using Postman, refer to the [Postman Documentation](https://
 Meet the individuals behind **Team Tensor Stars** who contributed to this project:
 
 - **Md Alsaifi** - Team Lead,Video Collection and Preprocessing
-- **Aman Kumar Srivastava** - Object detection,Motion detection,API integration
+- **Aman Kumar Srivastav** - Object detection,Motion detection,API integration
 - **Aritri Podder** - Documentation , Report Writing and Research
 
 
